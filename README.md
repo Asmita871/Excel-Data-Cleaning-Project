@@ -1,16 +1,16 @@
-🧹 Excel Data Cleaning Project
+#🧹 Excel Data Cleaning Project
 
 Dataset Used: (Write dataset name here, e.g., “Online Retail Sales Dataset from Kaggle”)
 
 
-📌 Objective
+#📌 Objective
 
 This project demonstrates how raw real-world data can be cleaned and transformed into structured, usable, and analysis-ready format using Microsoft Excel only.
 
 The goal was to detect errors, fix inconsistent entries, deal with missing data, remove duplicates, and improve overall data integrity.
 
 
-🧪 Problems Found in the Raw Data
+#🧪 Problems Found in the Raw Data
 
 -Inconsistent text format (uppercase/lowercase mix)
 -Extra spaces in cells
@@ -21,16 +21,18 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 -Unclear formatting, making data hard to read
 
 
-🛠 Data Cleaning Steps Performed
+#🛠 Data Cleaning Steps Performed
 
 1. Autofit columns and rows to read data clearly.
 
 📍 Purpose: To make data readable and properly aligned without changing values.
+
 📌 Action: Select sheet → Auto-fit rows and columns.
+
 ![new (1)](https://github.com/user-attachments/assets/b1b5b189-c983-4072-92e7-195984ceb3ec)
 
 
-Used Find & Replace to remove unwanted characters and clean repeated patterns.
+2. Used Find & Replace to remove unwanted characters and clean repeated patterns.
 
 Standardized text using LOWER, UPPER, and PROPER functions.
 
