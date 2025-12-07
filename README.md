@@ -1,16 +1,16 @@
-#Excel Data Cleaning Project
+# Excel Data Cleaning Project
 
 Dataset Used: (Write dataset name here, e.g., “Online Retail Sales Dataset from Kaggle”)
 
 
-#📌 Objective
+# 📌 Objective
 
 This project demonstrates how raw real-world data can be cleaned and transformed into structured, usable, and analysis-ready format using Microsoft Excel only.
 
 The goal was to detect errors, fix inconsistent entries, deal with missing data, remove duplicates, and improve overall data integrity.
 
 
-#🧪 Problems Found in the Raw Data
+# 🧪 Problems Found in the Raw Data
 
 -Inconsistent text format (uppercase/lowercase mix)
 -Extra spaces in cells
@@ -21,9 +21,9 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 -Unclear formatting, making data hard to read
 
 
-#🛠 Data Cleaning Steps Performed
+# 🛠 Data Cleaning Steps Performed
 
-1. Autofit columns and rows to read data clearly.
+## 1. Autofit columns and rows to read data clearly.
 
 📍 Purpose: To make data readable and properly aligned without changing values.
 
@@ -32,11 +32,21 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 ![new (1)](https://github.com/user-attachments/assets/b1b5b189-c983-4072-92e7-195984ceb3ec)
 
 
-2. Used Find & Replace to remove unwanted characters and clean repeated patterns.
+## 2. Used Find & Replace to remove unwanted characters and clean repeated pattern.
 
-Standardized text using LOWER, UPPER, and PROPER functions.
+📍 Purpose: Remove unwanted characters or fix formatting issues.
 
-Removed unnecessary spaces using the TRIM function.
+![1](https://github.com/user-attachments/assets/5f2d64c9-8488-49bb-90f2-751e63e730cf)
+
+
+## 3. Standardized text using LOWER functions.
+
+📍 Purpose: Standardize inconsistent text formatting.
+
+![2](https://github.com/user-attachments/assets/522a40c9-f5b5-4a5a-8274-bb0e48a89f54)
+
+
+## 4. Removed unnecessary spaces using the TRIM function.
 
 Split combined values (like “Full Name” or “City, State”) using Text to Columns.
 
