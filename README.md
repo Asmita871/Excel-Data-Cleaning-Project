@@ -6,9 +6,13 @@ This dataset represents a sample business dataset designed for practicing data-c
 It includes fields commonly found in business and sales reporting such as:
 
 -Customer and department information
+
 -Transaction date and region
+
 -Payment method
+
 -Revenue and profit values
+
 -Profit margin calculations
 
 
@@ -23,11 +27,17 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 # 🧪 Problems Found in the Raw Data
 
 -Inconsistent text format (uppercase/lowercase mix)
+
 -Extra spaces in cells
+
 -Blank / missing values
+
 -Duplicate entries
+
 -Combined text fields needing separation
+
 -Formula errors (like #N/A or #VALUE!)
+
 -Unclear formatting, making data hard to read
 
 
