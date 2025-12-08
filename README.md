@@ -27,8 +27,6 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 
 📍 Purpose: To make data readable and properly aligned without changing values.
 
-📌 Action: Select sheet → Auto-fit rows and columns.
-
 ![new (1)](https://github.com/user-attachments/assets/b1b5b189-c983-4072-92e7-195984ceb3ec)
 
 
@@ -48,14 +46,19 @@ The goal was to detect errors, fix inconsistent entries, deal with missing data,
 
 ## 4. Removed unnecessary spaces using the TRIM function.
 
-Split combined values (like “Full Name” or “City, State”) using Text to Columns.
+📍 Purpose: Remove extra spaces and standardize text formatting for better readability and consistency.
 
-Identified and removed duplicate records using Remove Duplicates.
+![3](https://github.com/user-attachments/assets/93547432-47f6-4115-9a38-802fac654e0e)
 
-Handled blank cells using appropriate filling techniques.
 
-Fixed formula errors using IFERROR to avoid broken results.
+## 5. Split combined values (like “Full Name” or “City, State”) using Text to Columns.
 
-Applied consistent formatting to make the dataset clean and readable.
+## 6. Identified and removed duplicate records using Remove Duplicates.
 
-Modified view options (gridlines, alignment, and formatting) to finalize the cleaned version.
+## 7. Handled blank cells using appropriate filling techniques.
+
+## 8. Fixed formula errors using IFERROR to avoid broken results.
+
+## 9. Applied consistent formatting to make the dataset clean and readable.
+
+## 10. Modified view options (gridlines, alignment, and formatting) to finalize the cleaned version.
