@@ -2,7 +2,7 @@
 
 # 🧾 Dataset Description
 
-This dataset represents a sample business dataset designed for practicing data-cleaning and spreadsheet preparation in Excel.
+This dataset represents a sample business dataset in Excel.
 It includes fields commonly found in business and sales reporting such as:
 
 -Customer and department information
